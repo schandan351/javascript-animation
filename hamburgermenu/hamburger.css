@@ -6,12 +6,12 @@
     margin: 0.3rem;
     border-radius: 0.5rem;
 }
-.hamburger .line:nth-child(1){
+.hamburger.active .line:nth-child(1){
     transform: translateY(0.6rem) rotate(-45deg);
 }
-.hamburger .line:nth-child(2){
+.hamburger.active .line:nth-child(2){
     opacity: 0;
 }
-.hamburger .line:nth-child(3){
+.hamburger.active .line:nth-child(3){
     transform: translateY(-0.6rem) rotate(45deg);
 }
