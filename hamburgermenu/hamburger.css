@@ -5,6 +5,7 @@
     display: block;
     margin: 0.3rem;
     border-radius: 0.5rem;
+    transition: all 0.3 ease-in-out;
 }
 .hamburger.active .line:nth-child(1){
     transform: translateY(0.6rem) rotate(-45deg);
