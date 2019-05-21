@@ -1,0 +1,17 @@
+.line{
+    height: 0.3rem;
+    width: 3rem;
+    background-color: rgb(209, 97, 97);
+    display: block;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+}
+.hamburger .line:nth-child(1){
+    transform: translateY(0.6rem) rotate(-45deg);
+}
+.hamburger .line:nth-child(2){
+    opacity: 0;
+}
+.hamburger .line:nth-child(3){
+    transform: translateY(-0.6rem) rotate(45deg);
+}
