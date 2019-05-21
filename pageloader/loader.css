@@ -1,0 +1,26 @@
+.loader{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.loader:after{
+    content: ".";
+    animation: dots 2.5s linear infinite;
+}
+@keyframes dots{
+    20%{
+        content: ".."
+    }
+    50%{
+        content: "..."
+    }
+    80%{
+        content: "...."
+    }
+    100%{
+        content: "....."
+    }
+}
+.hidden{
+    display: none;
+}
